@@ -1,0 +1,58 @@
+body {
+    color: blueviolet;
+}
+
+/* Selector Universal */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Selector de etiqueta */
+p {
+    color: blue;
+
+}
+
+/* Selector de clase */
+.rojo {
+    color: firebrick;
+}
+
+/* Selector de id */
+#texto {
+    color: tomato;
+}
+
+/* pseudo clases */
+header:hover{
+    background-color: blueviolet;
+}
+
+li:hover{
+    color: blue;
+}
+
+/* pseudo elementos */
+p::first-line {
+    color: black;
+}
+
+p::first-letter {
+    font-size: 40px;
+}
+
+
+main {
+    width: 500px;
+}
+
+p {
+    /* margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    margin-left: 5px; */
+    margin: 10px, 8px, 5px, 3px ;
+    padding: 20px;
+    border: 1px solid black;
+}
